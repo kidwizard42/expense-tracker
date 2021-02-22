@@ -29,10 +29,7 @@ function createExpense() {
   })
   deleteB.innerText = "Delete"
   newTR.append(deleteB)
-  for (let one in objectArray){
-    // console.log(this)  this refers to the window
-    console.log(one.value)
-  }
+
 }
 
 // Made an object that I wanted to iterate over in place of tableArray. Only so I could have
